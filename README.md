@@ -1,6 +1,8 @@
-# hubot-example
+# hubot-star-wars
 
-A hubot script that does the things
+A hubot script that uses ~~Midi-chlorians~~ the force to produce fantastic results.
+
+
 
 See [`src/example.coffee`](src/example.coffee) for full documentation.
 

@@ -2,7 +2,7 @@
   "name": "hubot-star-wars",
   "description": "A hubot script that adds star wars memes",
   "version": "0.1.0",
-  "author": "Josh <joshmfrankel@gmail.com>",
+  "author": "Josh Frankel <joshmfrankel@gmail.com>",
   "license": "MIT",
   "keywords": [
     "hubot",
