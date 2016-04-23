@@ -1,6 +1,6 @@
 {
   "name": "hubot-star-wars",
-  "description": "A hubot script that adds star wars memes",
+  "description": "A hubot script that uses the force to produce fantastic meme results",
   "version": "0.1.0",
   "author": "Josh Frankel <joshmfrankel@gmail.com>",
   "license": "MIT",

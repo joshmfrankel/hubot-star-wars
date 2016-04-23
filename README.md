@@ -1,28 +1,34 @@
 # hubot-star-wars
 
-A hubot script that uses ~~Midi-chlorians~~ the force to produce fantastic results.
+A hubot script that uses ~~Midi-chlorians~~ the force to produce fantastic meme results.
 
-
-
-See [`src/example.coffee`](src/example.coffee) for full documentation.
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-example --save`
+`npm install hubot-star-wars --save`
 
-Then add **hubot-example** to your `external-scripts.json`:
+Then add **hubot-star-wars** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-example"
+  "hubot-star-wars"
 ]
 ```
 
 ## Sample Interaction
 
+
+**Its a trap**
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> That looks like a trap...
+hubot>> its-a-trap.gif
+
+```
+
+**Nooo**
+```
+user1>> Nooooo that is just not right
+hubot>> vader-noo.gif
 ```
