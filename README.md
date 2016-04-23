@@ -2,7 +2,6 @@
 
 A hubot script that uses ~~Midi-chlorians~~ the force to produce fantastic meme results.
 
-
 ## Installation
 
 In hubot project repo, run:
@@ -18,7 +17,6 @@ Then add **hubot-star-wars** to your `external-scripts.json`:
 ```
 
 ## Sample Interaction
-
 
 **Its a trap**
 ```
