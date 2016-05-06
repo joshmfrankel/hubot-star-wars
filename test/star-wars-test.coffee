@@ -30,7 +30,7 @@ describe "robot responds to the word 'noo'", ->
       @room.user.say("Josh", "no").then =>
         expect(@room.messages[1]).to.not.eql ["hubot", "http://i.imgur.com/fE18keE.gif"]
 
-describe "robot responds to the phrase 'a trap'", ->
+describe "robot responds to the phrase 'a trap' or 'an elaborate ruse'", ->
 
   beforeEach ->
     @room = helper.createRoom({"response": MockResponse})
@@ -41,8 +41,12 @@ describe "robot responds to the phrase 'a trap'", ->
 
   context "when user enters valid characters", ->
 
-    it "should reply with image", ->
+    it "should reply to 'a trap'", ->
       @room.user.say("Josh", "Seems like a trap!").then =>
+        expect(@room.messages[1]).to.eql ["hubot", "http://i.imgur.com/fE18keE.gif"]
+
+    it "should reply to 'an elaborate ruse'", ->
+      @room.user.say("Josh", "Seems like an elaborate ruse").then =>
         expect(@room.messages[1]).to.eql ["hubot", "http://i.imgur.com/fE18keE.gif"]
 
   context "should not reply when user enters invalid characters", ->
